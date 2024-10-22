@@ -31,13 +31,11 @@ Sou apaixonado por tecnologia e robótica! Desde o início da minha jornada na c
 
 Aqui estão alguns dos meus projetos mais legais que você pode conferir no meu repositório:
 
-- [Nome do Projeto 1](link do projeto) - Descrição breve do projeto
-- [Nome do Projeto 2](link do projeto) - Descrição breve do projeto
+- [Battle_Ship_Game_Asesembly](https://github.com/NickLaDev/BattleShip_Assembly) - Jogo de batalha naval desenvolvido em assembly 8086 DOS
 
 ---
 
-## Vamos Conectar?
+## Contacte-me:
 
-- 📧 Email: [seuemail@dominio.com](mailto:seuemail@dominio.com)
-- 💼 [LinkedIn](https://www.linkedin.com/in/seu-perfil/)
-- 🌐 [Portfólio](https://www.seuportfolio.com) (se tiver)
+- 📧 Email: [nicolas.laredo@yahoo.com](mailto:nicolas.laredo@yahoo.com)
+
