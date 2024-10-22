@@ -32,7 +32,7 @@ Sou apaixonado por tecnologia e robótica! Desde o início da minha jornada na c
 Aqui estão alguns dos meus projetos mais legais que você pode conferir no meu repositório:
 
 - [Battle_Ship_Game_Asesembly](https://github.com/NickLaDev/BattleShip_Assembly) - Jogo de batalha naval desenvolvido em assembly 8086 DOS
-- [Olympic_Robotic_Robot]() - Codigos, vídeos e arquivos do robo utilizado na Olimpiada Brasileira de Robótica 
+- [Olympic_Robotic_Robot](https://github.com/NickLaDev/Olimpic_Robot_Codes) - Codigos, vídeos e arquivos do robo utilizado na Olimpiada Brasileira de Robótica 
 
 ---
 
