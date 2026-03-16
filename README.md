@@ -1,42 +1,143 @@
-# 👋 Olá! Eu sou **Nicolas Laredo**
+# 👋 Olá! Eu sou Nicolas Laredo
 
-🎓 Estudante de Engenharia da Computação na **PUC-Campinas**
-
----
-
-## Sobre Mim
-
-Sou apaixonado por tecnologia e robótica! Desde o início da minha jornada na computação, venho explorando diversas linguagens e tecnologias para desenvolver minhas habilidades e criar soluções inovadoras. Tenho uma paixão especial por competições de robótica, onde já conquistei:
-
-- 🥇 Campeão Estadual e Regional da **Olimpíada Brasileira de Robótica**
-- 🏅 24º Colocado Nacional na **Olimpíada Brasileira de Robótica**
+🎓 Estudante de Engenharia da Computação na **PUC-Campinas**  
+💻 Desenvolvedor com foco em **Backend, Frontend, SaaS, Streaming e IA aplicada**  
+🚀 Experiência com **Node.js, Flutter, MongoDB, Python, Linux e deploy em VPS**
 
 ---
 
-## Tecnologias que domino
+## Sobre mim
 
-- **Linguagens de Programação:** 
+Sou estudante de Engenharia da Computação e apaixonado por tecnologia, desenvolvimento de software e construção de produtos reais.
 
-  ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-  ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-  ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-  ![Assembly](https://custom-icon-badges.herokuapp.com/badge/Assembly-525252.svg?style=for-the-badge)
-  ![RobotC](https://custom-icon-badges.herokuapp.com/badge/RobotC-FF6F00.svg?style=for-the-badge)
+Tenho experiência no desenvolvimento de sistemas **SaaS multi-instância**, aplicações **Flutter para Smart TV, mobile e web**, integrações de pagamento em produção com **BTCPay**, além de soluções com **IA multimodal** para análise de imagens.
+
+Gosto de trabalhar em projetos que envolvem arquitetura, performance, automação, streaming e experiência do usuário em diferentes plataformas.
+
+Também tenho uma trajetória forte em robótica competitiva, com destaque para a **Olimpíada Brasileira de Robótica**, onde conquistei resultados em nível estadual, regional e nacional.
 
 ---
 
-## Projetos em Destaque
+## 🏆 Conquistas
 
-Aqui estão alguns dos meus projetos mais legais que você pode conferir no meu repositório:
-
-- [Battle_Ship_Game_Asesembly](https://github.com/NickLaDev/BattleShip_Assembly) - Jogo de batalha naval desenvolvido em assembly 8086 DOS
-- [Olympic_Robotic_Robot](https://github.com/NickLaDev/Olimpic_Robot_Codes) - Codigos, vídeos e arquivos do robo utilizado na Olimpiada Brasileira de Robótica 
+- 🥇 Campeão Estadual da Olimpíada Brasileira de Robótica
+- 🥇 Campeão Regional da Olimpíada Brasileira de Robótica
+- 🏅 24º colocado nacional na Olimpíada Brasileira de Robótica
 
 ---
 
-## Contacte-me:
+## 🚀 Principais projetos
 
-- 📧 Email: [nicolas.laredo@yahoo.com](mailto:nicolas.laredo@yahoo.com)
+### CastTV — Plataforma SaaS de IPTV/Streaming White-Label
+Ecossistema completo de streaming com arquitetura multi-instância, backend em **Node.js + MongoDB** e aplicações em **Flutter** para **Smart TV, mobile e web**.
 
+**Destaques:**
+- Backend multi-tenant com segmentação por `instanceKey`
+- Aplicações Flutter para TV, mobile e painel administrativo
+- Pairing por código para autenticação em Smart TVs
+- Gestão de branding, usuários, favoritos, histórico e catálogo
+- Deploy em **VPS Linux**
+
+---
+
+### Sistema de Pagamento via Bitcoin para SaaS
+Sistema backend em **Node.js** com integração real em produção via **BTCPay**.
+
+**Destaques:**
+- Geração e validação de cobranças em Bitcoin
+- Integração com fluxo de licenciamento/assinatura
+- Webhooks e reconciliação de pagamentos
+- Publicação e operação em ambiente Linux/VPS
+
+---
+
+### IA para Análise de Limpeza de Quartos
+Solução em **Node.js + Python** para análise visual de quartos de hotel usando **IA multimodal**.
+
+**Destaques:**
+- Upload de imagem via API
+- Processamento com **OpenAI GPT-4o**
+- Classificação em `ARRUMADO`, `DESARRUMADO` ou `PARCIALMENTE_ARRUMADO`
+- Retorno estruturado com nota, percentual e justificativa
+- Uso de **prompt engineering** e validação JSON
+
+---
+
+### NeoStream — Streaming Sob Demanda
+Plataforma com **Python**, **MongoDB**, **Flussonic**, **BTCPay** e **Binance Pay** para transmissão e gestão de conteúdo.
+
+**Destaques:**
+- Controle de licenças por instância
+- Integração com streaming e pagamentos
+- API REST com escopo por `instance_key`
+- Deploy em VPS Linux
+
+---
+
+## 🛠️ Tecnologias e Ferramentas
+
+### Linguagens
+- JavaScript
+- TypeScript
+- Python
+- Dart
+- C
+- Java
+- Assembly x86
+
+### Backend
+- Node.js
+- APIs REST
+- JWT
+- Webhooks
+- Integração com serviços externos
+
+### Frontend / Mobile / TV
+- Flutter
+- Provider
+- Repository Pattern
+- Clean Architecture
+- UI para Smart TV, mobile e web
+
+### Banco de Dados
+- MongoDB
+
+### IA / Visão
+- OpenAI API
+- IA multimodal
+- Prompt Engineering
+- OpenCV
+- YOLO
+
+### Streaming / Mídia
+- media_kit
+- bitmovin_player
+- video_player
+- better_player_plus
+
+### Infra / Dev Tools
+- Linux
+- VPS
+- Git
+- GitHub
+- Claude Code
+- Codex
+- Android Studio
+- VS Code
+
+---
+
+## 📌 Repositórios em destaque
+
+- **CastTV** — Plataforma de streaming multi-instância
+- **NeoStream** — Streaming sob demanda com licenciamento e pagamentos
+- **Battle_Ship_Game_Assembly** — Jogo de batalha naval em Assembly 8086 DOS
+- **Olympic_Robotic_Robot** — Códigos, vídeos e arquivos do robô da OBR
+
+---
+
+## 📫 Contato
+
+- 📧 **Email:** nicolas.laredo@yahoo.com
+- 💼 **LinkedIn:** https://www.linkedin.com/in/nicolas-ara%C3%BAjo-0165a435a/
+- 💻 **GitHub:** https://github.com/NickLaDev
