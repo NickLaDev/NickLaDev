@@ -1,143 +1,131 @@
-# 👋 Olá! Eu sou Nicolas Laredo
+# Nicolas Araújo
 
-🎓 Estudante de Engenharia da Computação na **PUC-Campinas**  
-💻 Desenvolvedor com foco em **Backend, Frontend, SaaS, Streaming e IA aplicada**  
-🚀 Experiência com **Node.js, Flutter, MongoDB, Python, Linux e deploy em VPS**
+**Tech Lead & Full Stack Developer**
 
----
+Eu trabalho transformando sistemas reais — muitas vezes legados, acoplados e difíceis de manter — em produtos mais organizados, integrados e preparados para crescer.
 
-## Sobre mim
+Minha atuação fica entre desenvolvimento e operação: backend, frontend, apps, APIs, bancos, integrações externas, deploy, suporte em produção e problemas que nem sempre estão só no código, como Android TV, Linux, rede, ADB, firmware e migrações graduais.
 
-Sou estudante de Engenharia da Computação e apaixonado por tecnologia, desenvolvimento de software e construção de produtos reais.
+Atualmente atuo na InfinityMedia, liderando e desenvolvendo produtos usados em ambientes hoteleiros, com foco em APIs, sistemas administrativos, apps de TV, apps mobile, automação e IA aplicada.
 
-Tenho experiência no desenvolvimento de sistemas **SaaS multi-instância**, aplicações **Flutter para Smart TV, mobile e web**, integrações de pagamento em produção com **BTCPay**, além de soluções com **IA multimodal** para análise de imagens.
+## O que eu faço
 
-Gosto de trabalhar em projetos que envolvem arquitetura, performance, automação, streaming e experiência do usuário em diferentes plataformas.
+- Desenvolvimento de APIs em PHP/Laravel, Node.js/TypeScript e Python/FastAPI
+- Modernização de sistemas legados sem interromper operação em produção
+- Desenvolvimento e integração de frontends em React/TypeScript
+- Apps em Flutter para Android TV, mobile e web
+- Integração entre produtos, bancos, serviços externos e sistemas existentes
+- Automação e suporte remoto de Android TVs com ADB, Linux, SSH e redes
+- Deploy e operação em VPS/Linux com Nginx, HTTPS e systemd
+- IA aplicada a problemas reais, principalmente análise de imagens e automação operacional
 
-Também tenho uma trajetória forte em robótica competitiva, com destaque para a **Olimpíada Brasileira de Robótica**, onde conquistei resultados em nível estadual, regional e nacional.
+## Problemas que eu resolvo
 
----
+O tipo de problema que mais aparece no meu trabalho não é só "criar uma tela" ou "fazer uma API".
 
-## 🏆 Conquistas
+Normalmente envolve pegar um sistema que já existe, já está em produção, tem regra de negócio espalhada, depende de banco legado, integrações externas e operação real acontecendo — e evoluir isso sem quebrar o que já funciona.
 
-- 🥇 Campeão Estadual da Olimpíada Brasileira de Robótica
-- 🥇 Campeão Regional da Olimpíada Brasileira de Robótica
-- 🏅 24º colocado nacional na Olimpíada Brasileira de Robótica
+Também trabalho bastante com problemas de produção: app que falha em TV box, dispositivo que não responde na rede, integração que muda comportamento, endpoint que precisa manter compatibilidade, fluxo legado que precisa virar API, ou uma migração que não pode ser feita de uma vez.
 
----
+## Experiência atual
 
-## 🚀 Principais projetos
+**Tech Lead & Full Stack Developer — InfinityMedia**
+_nov/2025 – atual_
 
-### CastTV — Plataforma SaaS de IPTV/Streaming White-Label
-Ecossistema completo de streaming com arquitetura multi-instância, backend em **Node.js + MongoDB** e aplicações em **Flutter** para **Smart TV, mobile e web**.
+Atuo na evolução do ecossistema de produtos da empresa, incluindo:
 
-**Destaques:**
-- Backend multi-tenant com segmentação por `instanceKey`
-- Aplicações Flutter para TV, mobile e painel administrativo
-- Pairing por código para autenticação em Smart TVs
-- Gestão de branding, usuários, favoritos, histórico e catálogo
-- Deploy em **VPS Linux**
+- **Infinity Manager v1** — manutenção evolutiva de sistema legado em PHP, com novas funções, correções em produção e integrações PMS.
+- **Infinity Manager v2** — frontend moderno em React/TypeScript para gerenciar os serviços da InfinityMedia.
+- **API Laravel do Manager v2** — API REST criada do zero para atender o novo frontend, mantendo paridade com o sistema legado.
+- **API Node.js/TypeScript do Manager v2** — nova API planejada para substituir gradualmente a API Laravel.
+- **Infinity Hospitality v5** — app Flutter para Android TV usado em quartos de hotel.
+- **ISM API** — evolução da API Laravel consumida pelo app de TV.
+- **ADB Server** — serviço em PHP/Slim para gerenciamento remoto de Android TVs via ADB.
+- **API de Suporte** — API REST em PHP puro para abertura e gestão de chamados.
+- **GuestCare / Room Check AI** — API em Python/FastAPI com IA para inspeção de quartos por imagem.
+- **Infinity Concierge** — coordenação técnica do app mobile/web do hóspede e integração com backend.
 
----
+## Projetos profissionais
 
-### Sistema de Pagamento via Bitcoin para SaaS
-Sistema backend em **Node.js** com integração real em produção via **BTCPay**.
+> Alguns projetos são proprietários/privados. As descrições aqui focam no problema resolvido e na arquitetura, sem expor código, credenciais ou dados sensíveis.
 
-**Destaques:**
-- Geração e validação de cobranças em Bitcoin
-- Integração com fluxo de licenciamento/assinatura
-- Webhooks e reconciliação de pagamentos
-- Publicação e operação em ambiente Linux/VPS
+### Infinity Manager v2 — API Laravel
 
----
+API REST desenvolvida em PHP/Laravel para servir o novo frontend do Manager v2, mantendo paridade com o sistema legado em PHP. Essa API foi criada para permitir a modernização do produto sem migrar todo o legado de uma vez.
 
-### IA para Análise de Limpeza de Quartos
-Solução em **Node.js + Python** para análise visual de quartos de hotel usando **IA multimodal**.
+**Stack:** PHP, Laravel, MySQL, JWT, OpenAPI, Swagger, PHPUnit, APIs REST
 
-**Destaques:**
-- Upload de imagem via API
-- Processamento com **OpenAI GPT-4o**
-- Classificação em `ARRUMADO`, `DESARRUMADO` ou `PARCIALMENTE_ARRUMADO`
-- Retorno estruturado com nota, percentual e justificativa
-- Uso de **prompt engineering** e validação JSON
+### Infinity Manager v2 — Frontend Administrativo
 
----
+Frontend moderno em React/TypeScript usado para gerenciar os produtos e serviços da InfinityMedia implantados em hotéis. O objetivo é centralizar operação, configuração e acompanhamento dos serviços da empresa, sem atuar como PMS.
 
-### NeoStream — Streaming Sob Demanda
-Plataforma com **Python**, **MongoDB**, **Flussonic**, **BTCPay** e **Binance Pay** para transmissão e gestão de conteúdo.
+**Stack:** React, TypeScript, Vite, REST APIs, RBAC, UX administrativo
 
-**Destaques:**
-- Controle de licenças por instância
-- Integração com streaming e pagamentos
-- API REST com escopo por `instance_key`
-- Deploy em VPS Linux
+### Infinity Manager v2 — API Node.js/TypeScript
 
----
+API em Node.js/TypeScript planejada para substituir gradualmente a API Laravel no mesmo frontend do Manager v2. A estratégia é migrar por etapas, com paridade funcional, testes e integração com banco legado.
 
-## 🛠️ Tecnologias e Ferramentas
+**Stack:** Node.js, TypeScript, Express, Zod, JWT, RBAC, MySQL/MariaDB
 
-### Linguagens
-- JavaScript
-- TypeScript
-- Python
-- Dart
-- C
-- Java
-- Assembly x86
+### Infinity Hospitality v5
 
-### Backend
-- Node.js
-- APIs REST
-- JWT
-- Webhooks
-- Integração com serviços externos
+App Flutter para Android TV usado em quartos de hotel, com TV ao vivo, EPG, room service, apps, QR Code, notificações, checkout, automação de quarto e integração PMS. O projeto exige atenção a performance em TV boxes, cache, feature flags, limitações de hardware, rede e firmware.
 
-### Frontend / Mobile / TV
-- Flutter
-- Provider
-- Repository Pattern
-- Clean Architecture
-- UI para Smart TV, mobile e web
+**Stack:** Flutter, Dart, Android TV, IPTV, HLS, EPG, REST APIs, cache
 
-### Banco de Dados
-- MongoDB
+### ADB Server e suporte remoto de Android TVs
 
-### IA / Visão
-- OpenAI API
-- IA multimodal
-- Prompt Engineering
-- OpenCV
-- YOLO
+Serviço em PHP/Slim para executar comandos ADB remotamente em Android TVs, com instalação de APKs, limpeza de apps, validação de dispositivos, logs e integração com painel. Também envolve troubleshooting em produção com Linux, SSH, redes, ADB TCP/IP, logcat e firmware Android.
 
-### Streaming / Mídia
-- media_kit
-- bitmovin_player
-- video_player
-- better_player_plus
+**Stack:** PHP, Slim Framework, ADB, Android TV, Linux, SSH, TCP/IP, Bash
 
-### Infra / Dev Tools
-- Linux
-- VPS
-- Git
-- GitHub
-- Claude Code
-- Codex
-- Android Studio
-- VS Code
+### GuestCare / Room Check AI
 
----
+API em Python/FastAPI para análise de quartos por imagem usando IA. Recebe fotos, realiza moderação, processa com modelo de visão e retorna laudo estruturado com status, nota, pontos positivos, negativos e justificativa.
 
-## 📌 Repositórios em destaque
+**Stack:** Python, FastAPI, GPT-4o Vision, Pydantic, Nginx, HTTPS, Linux
 
-- **CastTV** — Plataforma de streaming multi-instância
-- **NeoStream** — Streaming sob demanda com licenciamento e pagamentos
-- **Battle_Ship_Game_Assembly** — Jogo de batalha naval em Assembly 8086 DOS
-- **Olympic_Robotic_Robot** — Códigos, vídeos e arquivos do robô da OBR
+## Projetos independentes
 
----
+### CastTV
 
-## 📫 Contato
+Plataforma de streaming multi-tenant com backend Node.js/Express, MongoDB, dashboard administrativo e apps Flutter para TV, mobile e web. Inclui gestão de instâncias, usuários, dispositivos, canais, EPG, pareamento, license server, HLS e criptografia.
 
-- 📧 **Email:** nicolas.laredo@yahoo.com
-- 💼 **LinkedIn:** https://www.linkedin.com/in/nicolas-ara%C3%BAjo-0165a435a/
-- 💻 **GitHub:** https://github.com/NickLaDev
+**Stack:** Node.js, Express, MongoDB, Flutter, Android TV, HLS, JWT, criptografia
+
+### NeoStream
+
+Plataforma de streaming sob demanda com Python, MongoDB, Flussonic, BTCPay/Binance Pay e deploy em VPS Linux.
+
+**Stack:** Python, MongoDB, Flussonic, Linux, APIs REST, pagamentos
+
+### Sistema de pagamento via Bitcoin
+
+Backend em Node.js para integração real de pagamentos via BTCPay, com geração de cobranças, webhooks, assinatura/licenciamento e operação em VPS.
+
+**Stack:** Node.js, BTCPay, Webhooks, Linux, VPS
+
+## Formação e histórico técnico
+
+Estudante de Engenharia da Computação na PUC-Campinas.
+
+Antes da minha atuação profissional atual, tive uma base forte em robótica competitiva e projetos de baixo nível:
+
+- Campeão estadual e regional da Olimpíada Brasileira de Robótica
+- 24º colocado nacional na OBR
+- Projetos em C, Assembly 8086, estrutura de dados e robótica
+
+## Stack principal
+
+**Backend:** PHP, Laravel, Node.js, TypeScript, Python, FastAPI
+**Frontend/App:** React, Flutter, Dart, Android TV
+**Banco:** MySQL, MongoDB, SQLite
+**Infra:** Linux, VPS, Nginx, Docker, SSH, systemd
+**Integrações:** REST APIs, JWT, OpenAPI, Swagger, Webhooks
+**Outros:** ADB, IPTV, Streaming, IA aplicada, troubleshooting em produção
+
+## Contato
+
+- **LinkedIn:** https://www.linkedin.com/in/nicolas-araújo-0165a435a
+- **GitHub:** https://github.com/NickLaDev
+- **E-mail:** nicolas.laredo@yahoo.com
