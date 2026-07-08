@@ -23,9 +23,15 @@ Atualmente atuo na InfinityMedia, liderando e desenvolvendo produtos usados em a
 
 O tipo de problema que mais aparece no meu trabalho não é só "criar uma tela" ou "fazer uma API".
 
-Normalmente envolve pegar um sistema que já existe, já está em produção, tem regra de negócio espalhada, depende de banco legado, integrações externas e operação real acontecendo — e evoluir isso sem quebrar o que já funciona.
+Normalmente envolve pegar um sistema que já existe, já está em produção, tem regra de negócio espalhada, depende de banco legado, integrações externas e operação real acontecendo — e evoluir isso sem quebrar o que já funciona. Boa parte desse trabalho é transformar um legado em uma versão moderna: repensar a arquitetura, reescrever por partes e migrar aos poucos, mantendo o produto no ar o tempo todo.
 
-Também trabalho bastante com problemas de produção: app que falha em TV box, dispositivo que não responde na rede, integração que muda comportamento, endpoint que precisa manter compatibilidade, fluxo legado que precisa virar API, ou uma migração que não pode ser feita de uma vez.
+Quando o problema é novo, eu construo a solução do zero. Isso vai desde entender o problema e desenhar a arquitetura até desenvolver, colocar em produção e manter. Já toquei projetos completos nesse formato, cuidando das decisões técnicas do início ao fim.
+
+Também lidero e coordeno o time de desenvolvimento: divido o trabalho, reviso entregas, defino padrões e ajudo a destravar quem está travado. Gosto de manter o time alinhado sem burocratizar, garantindo que o que sai esteja realmente pronto para produção.
+
+O dia a dia também tem muito de resolver o que quebra: app que falha em TV box, dispositivo que não responde na rede, integração que muda comportamento, endpoint que precisa manter compatibilidade, fluxo legado que precisa virar API, ou uma migração que não pode ser feita de uma vez.
+
+Uso Git e GitHub como parte central do fluxo — branches, pull requests, revisão de código e histórico organizado — tanto no meu trabalho quanto na coordenação do time. E tenho inglês em nível avançado, o que me deixa confortável para ler documentação, trabalhar com ferramentas e integrações internacionais e me comunicar em contextos técnicos em inglês.
 
 ## Experiência atual
 
@@ -122,6 +128,8 @@ Antes da minha atuação profissional atual, tive uma base forte em robótica co
 **Banco:** MySQL, MongoDB, SQLite
 **Infra:** Linux, VPS, Nginx, Docker, SSH, systemd
 **Integrações:** REST APIs, JWT, OpenAPI, Swagger, Webhooks
+**Ferramentas & versionamento:** Git, GitHub, pull requests e code review
+**Idiomas:** Inglês avançado (leitura, escrita e comunicação técnica)
 **Outros:** ADB, IPTV, Streaming, IA aplicada, troubleshooting em produção
 
 ## Contato
